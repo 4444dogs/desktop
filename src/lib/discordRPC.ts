@@ -12,9 +12,9 @@ export async function connectRPC() {
         rpc.on("ready", () =>
             rpc.setActivity({
                 state: "revolt.chat",
-                details: "Chatting with others",
+                details: "Chatting with others privately",
                 largeImageKey: "qr",
-                largeImageText: "Communication is critical – use Revolt.",
+                largeImageText: "Communication is critical, privacy is essential. – use Revolt.",
                 buttons: [
                     {
                         label: "Join Public Beta",
